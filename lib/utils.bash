@@ -94,35 +94,3 @@ install_version() {
         fail "An error occurred while installing $TOOL_NAME $version."
     )
 }
-
-get_platform() {
-    local platform
-    platform=$(uname -s | tr '[:upper:]' '[:lower:]')
-    case $platform in
-    "darwin")
-        echo "Darwin"
-    ;;
-    *)
-        echo "$platform"
-    ;;
-    esac
-}
-
-get_arch() {
-    local arch
-    arch=$(uname -m)
-    case $arch in
-    "arm")
-        echo "armv7" # Super best effort - TODO: find useful way to split armv6/armv7 maybe
-    ;;
-    "aarch64" | "arm64")
-        echo "arm64"
-    ;;
-    "i686")
-        echo "i386"
-    ;;
-    *)
-        echo "$arch"
-    ;;
-    esac
-}
