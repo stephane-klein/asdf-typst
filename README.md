@@ -1,6 +1,6 @@
 <div align="center">
 
-# asdf-typst [![Build](https://github.com/stephane-klein/asdf-typst/actions/workflows/build.yml/badge.svg)](https://github.com/stephane-klein/asdf-typst/actions/workflows/build.yml) [![Lint](https://github.com/stephane-klein/asdf-typst/actions/workflows/lint.yml/badge.svg)](https://github.com/stephane-klein/asdf-typst/actions/workflows/lint.yml)
+# asdf-typst [![Build](https://github.com/stephane-klein/asdf-typst/actions/workflows/build.yml/badge.svg)](https://github.com/stephane-klein/asdf-typst/actions/workflows/build.yml)
 
 [typst](https://github.com/typst/typst) plugin for the [asdf version manager](https://asdf-vm.com).
 
